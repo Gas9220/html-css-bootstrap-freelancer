@@ -1,16 +1,29 @@
-header {
-    height: 5.625rem;
-    background-color: #2C3E50;
-}
+  :root {
+      --custom-blue: #2C3E50;
+      --custom-acqua: #1ABC9C;
+  }
 
-/*
+  header {
+      height: 5.625rem;
+      background-color: var(--custom-blue);
+  }
+
+  section#introduction {
+      background-color: var(--custom-acqua);
+  }
+
+  /*
  Debug
 */
 
-.debug .logo {
-    background-color: azure;
-}
+  .debug .logo {
+      background-color: azure;
+  }
 
-.debug .menu {
-    background-color: beige;
-}
+  .debug .menu {
+      background-color: beige;
+  }
+
+  .debug #introduction {
+      height: 36.875rem;
+  }
