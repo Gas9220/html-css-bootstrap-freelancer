@@ -12,13 +12,19 @@
       background-color: var(--custom-acqua);
   }
 
-  section#portfolio .container div > * {
+  section#portfolio .container div > *,
+  section#contact .container div > *
+  {
     border-color: var(--custom-blue);
     color: var(--custom-blue)
   }
 
   section#about {
     background-color: var(--custom-acqua);
+}
+
+form button {
+    background-color: var(--custom-acqua) !important;
 }
 
   /*
@@ -43,6 +49,10 @@
 
   .debug section#about {
     height: 31.25rem;
+  }
+
+  .debug section#contact {
+    height: 36.875rem;
   }
 
   .debug section > .container {
