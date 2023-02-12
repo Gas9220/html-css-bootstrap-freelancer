@@ -12,11 +12,14 @@
       background-color: var(--custom-acqua);
   }
 
-  section#introduction .container h1,
-  section#introduction .container h4
-  {
-    text-transform: uppercase;
+  section#portfolio .container div > * {
+    border-color: var(--custom-blue);
+    color: var(--custom-blue)
   }
+
+  section#about {
+    background-color: var(--custom-acqua);
+}
 
   /*
  Debug
@@ -37,3 +40,4 @@
   .debug #introduction .container {
     background-color: bisque;
 }
+
