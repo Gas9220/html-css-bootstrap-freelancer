@@ -1,5 +1,6 @@
   :root {
       --custom-blue: #2C3E50;
+      --custom-light-blue: #3A546D;
       --custom-acqua: #1ABC9C;
   }
 
@@ -12,19 +13,34 @@
       background-color: var(--custom-acqua);
   }
 
-  section#portfolio .container div > *,
-  section#contact .container div > *
-  {
-    border-color: var(--custom-blue);
-    color: var(--custom-blue)
+  section#portfolio .container div>*,
+  section#contact .container div>* {
+      border-color: var(--custom-blue);
+      color: var(--custom-blue)
   }
 
   section#about {
-    background-color: var(--custom-acqua);
-}
+      background-color: var(--custom-acqua);
+  }
 
-form button {
-    background-color: var(--custom-acqua) !important;
+  footer .footer-top {
+    background-color: var(--custom-light-blue);
+  }
+
+  footer .footer-low {
+    background-color: var(--custom-blue);
+  }
+
+  form button {
+      background-color: var(--custom-acqua) !important;
+  }
+
+div.social-icon {
+    width: 2rem;
+    height: 2rem;
+}
+div.social-icon i {
+    vertical-align: middle;
 }
 
   /*
@@ -44,18 +60,29 @@ form button {
   }
 
   .debug section#portfolio {
-    height: 53.75rem;
-}
+      height: 53.75rem;
+  }
 
   .debug section#about {
-    height: 31.25rem;
+      height: 31.25rem;
   }
 
   .debug section#contact {
-    height: 36.875rem;
+      height: 36.875rem;
   }
 
-  .debug section > .container {
-    background-color: bisque;
+  .debug section>.container {
+      background-color: bisque;
+  }
+
+  .debug .footer-top {
+      height: 28.125rem;
+  }
+
+  .debug .footer-top {
+    height: 28.125rem;
 }
 
+.debug .footer-low {
+    height: 6.25rem;
+}
