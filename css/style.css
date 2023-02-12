@@ -33,11 +33,19 @@
       background-color: beige;
   }
 
-  .debug #introduction {
+  .debug section#introduction {
       height: 36.875rem;
   }
 
-  .debug #introduction .container {
+  .debug section#portfolio {
+    height: 53.75rem;
+}
+
+  .debug section#about {
+    height: 31.25rem;
+  }
+
+  .debug section > .container {
     background-color: bisque;
 }
 
