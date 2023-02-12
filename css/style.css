@@ -12,6 +12,12 @@
       background-color: var(--custom-acqua);
   }
 
+  section#introduction .container h1,
+  section#introduction .container h4
+  {
+    text-transform: uppercase;
+  }
+
   /*
  Debug
 */
@@ -27,3 +33,7 @@
   .debug #introduction {
       height: 36.875rem;
   }
+
+  .debug #introduction .container {
+    background-color: bisque;
+}
