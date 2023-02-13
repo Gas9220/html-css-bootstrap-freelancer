@@ -9,6 +9,10 @@
       background-color: var(--custom-blue);
   }
 
+  .avatar {
+    width: 16rem;
+  }
+
   section#introduction {
       background-color: var(--custom-acqua);
   }
