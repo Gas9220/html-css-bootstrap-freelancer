@@ -33,6 +33,7 @@
 
   footer .footer-low {
     background-color: var(--custom-blue);
+    height: 3rem;
   }
 
   form button {
