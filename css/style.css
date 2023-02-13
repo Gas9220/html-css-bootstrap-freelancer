@@ -5,7 +5,7 @@
   }
 
   header {
-      height: 5.625rem;
+      min-height: 5.625rem;
       background-color: var(--custom-blue);
   }
 
